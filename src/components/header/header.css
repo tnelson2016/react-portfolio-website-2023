@@ -1,0 +1,98 @@
+header {
+    height: 100hv;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/*===============CTA===================*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/*===============socials===================*/
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    font-size: 2rem;
+
+    
+}
+
+.header__socials::after {
+    /*content: " ";*/
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+header a {
+    /* background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex; */
+    /* color: var(--color-light); */
+    color: rgb(126, 157, 211);
+
+}
+
+/*===============ME===================*/
+.me{
+        width: 40%;
+        height: 80%;
+        align-items: center;
+        margin-top: 4rem;
+        margin-left: 30%;
+        border-radius: 20rem 20rem 0 0;
+        overflow: hidden;
+        padding: 5rem 1.5 1.5 1.5;
+}
+
+
+/*===============SCROLL DOWN===================*/
+.scroll__down {
+    position:absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgb(126, 157, 211);
+}
+
+
+/*===============MEDIA QUERIES (MEDIUM DEVICES)=================*/
+
+@media screen and (max-width:1024px){
+    header{
+       height: 68vh; 
+    }
+
+}
+
+/*===============MEDIA QUERIES (SMALL DEVICES)=================*/
+
+@media screen and (max-width:600px){
+    header{
+        height: 90vh; 
+    }
+
+    .header__socials, .scroll__down{
+        display: none;
+
+    }
+}
