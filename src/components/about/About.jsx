@@ -7,7 +7,6 @@ import { TiSocialInstagram } from 'react-icons/ti'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
       <h2>About Me </h2>
 
       <div className="container about__container">
@@ -34,17 +33,21 @@ const About = () => {
             
             <article className='about__card'>
               <TiSocialInstagram className= 'about__icon'/> 
-              <h5>Social Media</h5>
-              <small>Fun Stuff</small>
+              <h5>Education</h5>
+                <small>Lander University</small>
+                <br/>
+                <small>The Citadel Graduate College</small>
+                <br/>
+              <small>Jack Russell Coding School</small>
+    
                         </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+          <p>Im a results-driven, self-starting software engineer with a
+            passion for creating innovative solutions. Seeking a challenging
+            position where I can leverage my technical skill in software development,
+            problem solving and strong collaboration abilities to develop high-quality software applications that drive business growth and enhance
+            user experience.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

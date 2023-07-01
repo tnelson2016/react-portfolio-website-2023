@@ -11,9 +11,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title:'Person Using Black And White Smartphone',
-    github:"https://github.com",
-    demo:'https://www.pexels.com/photo/person-using-black-and-white-smartphone-and-holding-blue-card-230544/'  
+    title:"Troy's Fitness App",
+    github:"https://github.com/tnelson2016/gym_exercises",
+    demo:'https://tln-gym.netlify.app/'  
   },
    {
     id: 2,
@@ -56,7 +56,6 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
     
       <div className="container portfolio__container">
